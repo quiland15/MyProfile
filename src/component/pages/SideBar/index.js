@@ -4,7 +4,7 @@ const SideBar = () => {
     return (
     <nav>
         <div className="logo">
-            <img src="img/Untitled__2_-removebg-preview.png" alt=""/>
+            <img src="img/Portofolio-removebg-preview.png" alt=""/>
         </div>
         {/* <div className="mini-logo">
             <img src="img/mini_logo.png" alt=""/>

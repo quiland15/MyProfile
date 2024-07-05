@@ -193,13 +193,15 @@ nav .mini-logo {
 }
 
 nav .logo {
-	margin-top: 25px;
-	margin-bottom: -230px;
-	padding: 0px;
+	margin-top: 45px;
+	padding: 0px 20px;
 }
 
 nav .logo img {
-	max-width: 100%;
+	max-width: 170%;
+	margin-left: -140px;
+	margin-top: -150px;
+	margin-bottom: -250px;
 	overflow-y: hidden;
 }
 
@@ -296,16 +298,16 @@ nav a:hover::before {
 }
 
 .slides .slide:nth-child(1) {
-  background-image: url(/public/img/first_bg.jpg);
+  background-image: url(/public/img/black-prism-concept-ai-generated_268835-7011.avif);
 }
 .slides .slide:nth-child(2) {
-  background-image: url(/public/img/second_bg.jpg);
+  background-image: url(/public/img/black-prism-concept-ai-generated_268835-7011.avif);
 }
 .slides .slide:nth-child(3) {
-  background-image: url(/public/img/third_bg.jpg);
+  background-image: url(/public/img/black-prism-concept-ai-generated_268835-7011.avif);
 }
 .slides .slide:nth-child(4) {
-  background-image: url(/public/img/fourth_bg.jpg);
+  background-image: url(/public/img/black-prism-concept-ai-generated_268835-7011.avif);
  }
 .slides .slide:nth-child(5) {
   background-image: url(/public/img/fifth_bg.jpg);
@@ -333,7 +335,7 @@ nav a:hover::before {
 .first-content .author-image img {
 	margin-top: 15px;
 	border-radius: 30px;
-	max-width: 20%;
+	max-width: 100%;
 	overflow: hidden;
 	float: left;
 	margin-right: 35px;
@@ -419,18 +421,15 @@ nav a:hover::before {
 }
 
 .second-content .right-image img {
-	max-width: 50%;
-	min-width: 10%;
+	max-width: 100%;
+	min-width: 100%;
 	overflow: hidden;
 	float: right;
 }
 
 .second-content .left-content {
-	max-width: 50%;
-	min-width: 10%;
 	padding: 60px;
 	text-align: left;
-	float: left;
 }
 
 .second-content h2 {
@@ -450,7 +449,7 @@ nav a:hover::before {
 	font-size: 13px;
 	color: #fff;
 	letter-spacing: 0.5px;
-	font-weight: 10;
+	font-weight: 300;
 	line-height: 24px;
 	margin-bottom: 30px;
 }
@@ -484,19 +483,12 @@ nav a:hover::before {
 }
 
 .third-content .first-section .left-content {
-	max-width: 50%;
-	min-width: 10%;
-	margin-top: -20px;
-	margin-left: -15px;
-	float: left;
+	margin-right: 15px;
+	margin-top: 12px;
 }
 
 .third-content .first-section .right-image {
-	max-width: 50%;
-	min-width: 10%;
-	margin-top: -60px;
-	float: right;
-	margin-right: -15px;
+	margin-left: 15px;
 }
 
 .third-content .second-section {
@@ -504,19 +496,12 @@ nav a:hover::before {
 }
 
 .third-content .second-section .right-content {
-	max-width: 50%;
-	min-width: 10%;
-	margin-top: 36px;
-	margin-right: -15px;
-	float: right;
+	margin-left: 15px;
+	margin-top: 12px;
 }
 
 .third-content .second-section .left-image {
-	max-width: 50%;
-	min-width: 10%;
-	margin-top: 60px;
-	margin-left: -15px;
-	float: left;
+	margin-right: 15px;
 }
 
 .third-content h2 {
@@ -527,7 +512,7 @@ nav a:hover::before {
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
-	padding-bottom: 9px;
+	padding-bottom: 10px;
 	margin-bottom: 20px;
 	margin-top: 0px;
 }
@@ -578,16 +563,12 @@ nav a:hover::before {
 }
 
 .fourth-content .item img {
-	width: 8cm;
+	max-width: 100%;
 	overflow: hidden;
-	float: left;
-	margin-left: -6px;
-	padding-bottom: 20px;
-	padding-right : 20px;
 }
 
 .fourth-content .item .thumb {
-	position:relative;
+	position: relative;
 }
 
 .fourth-content .item .hover-effect {
@@ -600,7 +581,7 @@ nav a:hover::before {
 	left: 0;
 	right: 0;
 	opacity: 0;
-	visibility:collapse;
+	visibility: hidden;
 	transition: all 0.8s;
 }
 
@@ -613,10 +594,10 @@ nav a:hover::before {
 	transform: translateY(-50%);
     position: absolute;
     text-align: left;
-    width: 40%;
-    top: 2.5cm;
-    left: -40px;
-    padding: 50px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    padding: 30px;
 }
 
 .fourth-content .item .hover-effect h2 {
@@ -649,27 +630,20 @@ nav a:hover::before {
 }
 
 .fifth-content .container-fluid .col-md-6 {
-	flex:1%;
 	padding-left: 0px;
 	padding-right: 0px;
+	display: flex;
+    flex-wrap: wrap;
+	flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .fifth-content #map {
-	width: 50%;
-	float: left;
-	padding-bottom: 50px;
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 20px;
-	/* padding: 50%; */
+	padding: 50px 0px 50px 50px;
 }
 
 .fifth-content #contact {
-	width: 50%;
-	float: right;
-	padding-top: 70px;
-	padding-right: 20px;
-	/* padding: 50%; */
+	padding: 50px 50px 50px 50px;
 }
 
 .fifth-content input {
@@ -813,7 +787,7 @@ nav a:hover::before {
 	}
 
 	nav .logo {
-		display:flex;
+		display: none;
 	}
 
 	nav .mini-logo {

@@ -7,7 +7,7 @@ const Slides = () => {
          <div className="content first-content">
            <div className="container-fluid">
                <div className="col-md-3">
-                   <div className="author-image"><img src="img/299332889_3209029129411135_7537361851767170704_n.jpg" alt="Author Image"/></div>
+                   <div className="author-image"><img src="img/WhatsApp Image 2024-07-05 at 21.08.41_77a4a000.jpg" alt="Author Image"/></div>
                </div>
                <div className="col-md-9">
                    <h2>Quiland Mark Nico Wenas</h2>
@@ -32,7 +32,7 @@ const Slides = () => {
                  </div>
                  <div className="col-md-6">
                      <div className="right-image">
-                       <img src="/img/about_image.jpg" alt=""/>
+                       <img src="img/WhatsApp Image 2024-07-05 at 21.36.43_7e6559d2.jpg" alt=""/>
                    </div>
                  </div>
              </div>

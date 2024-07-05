@@ -1,7 +1,7 @@
 /* LIGHT BOX */
 
 body:after {
-  content: url(/project-frontend/public/img/close.png) url(/project-frontend/public/img/loading.gif) url(/project-frontend/public/img/prev.png) url(/project-frontend/public/img/next.png);
+  content: url(/public/img/close.png) url(/public/img/loading.gif) url(/public/img/prev.png) url(/public/img/next.png);
   display: none;
 }
 

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
     <div className="footer">
         <div className="content">
-            <p>Copyright &copy; 2020 Company Name . Template: <a rel="nofollow" href="https://templatemo.com/tm-512-moonlight">Moonlight</a></p>
+            <p>Copyright &copy; 2024 Quiland Mark Nico Wenas . LinkId: <a rel="nofollow" href="https://www.linkedin.com/in/quiland-wenas-5102a8222/">Quiland Wenas</a></p>
         </div>
     </div>
     )
