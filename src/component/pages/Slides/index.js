@@ -11,7 +11,7 @@ const Slides = () => {
                </div>
                <div className="col-md-9">
                    <h2>Quiland Mark Nico Wenas</h2>
-                   <p> Saya Seorang Full Stack Developer berpengalaman, ahli dalam mengembangkan aplikasi web dan mobile efisien dan berkinerja tinggi. Terbuka untuk freelance dan side hustle, komitmen pada hasil terbaik.</p>
+                   <p>Saya adalah seorang profesional yang berfokus pada pengelolaan server cloud dengan keahlian mendalam dalam Linux. Saya memiliki pengalaman luas dalam menangani infrastruktur server, memastikan kinerja, keamanan, dan skalabilitas optimal. Terbuka untuk proyek freelance dan side hustle, dengan komitmen penuh untuk memberikan solusi terbaik di bidang server cloud dan manajemen sistem berbasis Linux.</p>
                    <div class="main-btn"><a href="#2">Read More</a></div>
                    <div class="fb-btn"><a rel="nofollow" href="https://www.linkedin.com/in/quiland-wenas-5102a8222/">My LinkedIn</a></div>
                </div>
@@ -25,14 +25,14 @@ const Slides = () => {
                      <div className="left-content">
                          <h2>About Me</h2>
                          <p>
-                           Saya adalah Full Stack Developer berpengalaman yang telah sukses mengembangkan aplikasi web dan mobile yang efisien dan inovatif. Keahlian saya di bidang front-end mencakup penggunaan ReactJS, Vue.js, dan Angular untuk menciptakan antarmuka pengguna yang responsif dan menarik. Di sisi back-end, saya memiliki pengalaman dalam Node.js, Python, dan Java, dengan fokus pada desain arsitektur backend yang skalabel dan performa tinggi. Saya dikenal sebagai seseorang yang tekun dalam menghadapi tantangan teknis yang kompleks, dengan kemampuan unggul dalam debugging dan pengoptimalan performa aplikasi.
+                            Saya adalah seorang profesional yang fokus pada pengelolaan server cloud, khususnya menggunakan AWS dan Google Cloud. Saya juga memiliki keahlian dalam sistem berbasis Linux dan memahami penggunaan version control seperti Git untuk mendukung manajemen proyek dan kolaborasi tim. Saya berkomitmen untuk memastikan kinerja, keamanan, dan efisiensi optimal pada infrastruktur yang saya tangani.
                          </p>
                          <div class="main-btn"><a href="#3">Read More</a></div>
                    </div>
                  </div>
                  <div className="col-md-6">
                      <div className="right-image">
-                       <img src="img/WhatsApp Image 2024-07-05 at 21.36.43_7e6559d2.jpg" alt=""/>
+                       <img src="img/cloud-6515064_1280.webp" alt=""/>
                    </div>
                  </div>
              </div>
@@ -49,15 +49,16 @@ const Slides = () => {
                                     <div className="col-md-6">
                                         <div className="left-content">
                                             <h2>
-                                                Front-end
+                                                Server Cloud
                                             </h2>
-                                            <p>Kami berhasil mengembangkan proyek front-end yang mengintegrasikan ReactJS dan Angular untuk menciptakan antarmuka pengguna yang modern dan responsif. Proyek ini tidak hanya memenuhi kebutuhan fungsional klien, tetapi juga meningkatkan pengalaman pengguna dengan desain UI/UX yang intuitif dan estetis.</p>
+                                            <p>Saya berhasil menyelesaikan sertifikasi AWS dan Google Cloud, yang memperkuat keahlian saya dalam pengelolaan infrastruktur cloud dan memastikan kemampuan saya dalam menyediakan solusi yang efisien, skalabel, dan aman di platform tersebut.</p>
                                             {/* <div class="main-btn"><a href="#4">Continue Reading</a></div> */}
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="right-image">
-                                            <img src="img/38de1406d3304de296b3b08dd4af51c7f2db59e2.jpg" alt="first service"/>
+                                            <img src="img/aws-academy-graduate-aws-academy-cloud-foundations.png" alt="first service"/>
+                                            <img src="img/google-cloud-computing-foundations-certificate.png" alt="first service"/>
                                         </div>
                                     </div>
                                 </div>
