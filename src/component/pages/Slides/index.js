@@ -311,13 +311,13 @@ const Slides = () => {
                                 type="button"
                                 onClick={() => {
                                   // Mengambil nilai dari input form
-                                  const email = document.getElementById("email").value;
+                                  const email = "quiland86@gmail.com";
                                   const subject = document.getElementById("subject").value;
                                   const message = document.getElementById("message").value;
                                 
                                   // Validasi: Cek apakah semua field terisi
-                                  if (!email || !subject || !message) {
-                                    alert("Please fill in all fields before sending.");
+                                  if (!subject || !message) {
+                                    alert("Please fill in Subject and Message fields before sending.");
                                     return;
                                   }
                               
