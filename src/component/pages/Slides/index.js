@@ -11,7 +11,7 @@ const Slides = () => {
                </div>
                <div className="col-md-9">
                    <h2>Quiland Mark Nico Wenas</h2>
-                   <p>Saya adalah seorang profesional yang berfokus pada pengelolaan server cloud dengan keahlian mendalam dalam Linux. Saya memiliki pengalaman luas dalam menangani infrastruktur server, memastikan kinerja, keamanan, dan skalabilitas optimal. Terbuka untuk proyek freelance dan side hustle, dengan komitmen penuh untuk memberikan solusi terbaik di bidang server cloud dan manajemen sistem berbasis Linux.</p>
+                   <p>Saya adalah seorang yang mampu berfokus pada pengelolaan server cloud dengan keahlian mendalam dalam Linux. Saya memiliki pengalaman dalam menangani infrastruktur server, memastikan kinerja, keamanan, dan skalabilitas optimal. Terbuka untuk proyek freelance dan side hustle, dengan komitmen penuh untuk memberikan solusi terbaik di bidang server cloud dan manajemen sistem berbasis Linux.</p>
                    <div class="main-btn"><a href="#2">Read More</a></div>
                    <div class="fb-btn"><a rel="nofollow" href="https://www.linkedin.com/in/quiland-wenas-5102a8222/">My LinkedIn</a></div>
                </div>
@@ -25,7 +25,7 @@ const Slides = () => {
                      <div className="left-content">
                          <h2>About Me</h2>
                          <p>
-                            Saya adalah seorang profesional yang fokus pada pengelolaan server cloud, khususnya menggunakan AWS dan Google Cloud. Saya juga memiliki keahlian dalam sistem berbasis Linux dan memahami penggunaan version control seperti Git untuk mendukung manajemen proyek dan kolaborasi tim. Saya berkomitmen untuk memastikan kinerja, keamanan, dan efisiensi optimal pada infrastruktur yang saya tangani.
+                            Saya mampu mengelola server cloud dengan keahlian khusus dalam AWS dan Google Cloud. Saya memiliki minat besar terhadap eksplorasi hal-hal baru dan selalu berusaha memahami teknologi terkini, terutama di sistem berbasis Linux. Dengan rasa ingin tahu yang tinggi, saya juga mendalami penggunaan version control seperti Git untuk mendukung manajemen proyek dan kolaborasi tim. Saya berkomitmen untuk terus belajar dan memastikan infrastruktur yang saya tangani selalu berjalan dengan kinerja, keamanan, dan efisiensi terbaik.
                          </p>
                          <div class="main-btn"><a href="#3">Read More</a></div>
                    </div>
