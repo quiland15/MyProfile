@@ -69,13 +69,13 @@ const Slides = () => {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="left-image">
-                                            <img src="/img/second_service.jpg" alt="second service"/>
+                                            <img src="/img/istockphoto-1931065900-1024x1024.jpg" alt="second service"/>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="right-content">
-                                            <h2>Back-end</h2>
-                                            <p>Kami berhasil mengimplementasikan proyek back-end untuk pemerintah yang menggunakan Node.js dan Python. Proyek ini dirancang untuk mengelola data sensitif dengan aman dan efisien, memastikan kepatuhan terhadap regulasi yang ketat serta ketersediaan layanan yang tinggi untuk melayani kebutuhan masyarakat secara optimal.</p>
+                                            <h2>Control Version</h2>
+                                            <p>Saya memiliki kemampuan dalam menggunakan version control seperti Git untuk mengelola perubahan kode, berkolaborasi dengan tim, dan memastikan pengembangan proyek berjalan secara terstruktur dan efisien.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -307,7 +307,22 @@ const Slides = () => {
                             </div>
                             <div className="col-md-12">
                               <fieldset>
-                                <button type="submit" id="form-submit" className="btn">Send Now</button>
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const email = "youremail@example.com";
+                                  const subject = "Your Subject";
+                                  const message = "Your Message";
+                                
+                                  window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+                                    subject
+                                  )}&body=${encodeURIComponent(message)}`;
+                                }}
+                                className="btn"
+                              >
+                                Send Now
+                              </button>
+                                {/* <button type="submit" id="form-submit" className="btn">Send Now</button> */}
                               </fieldset>
                             </div>
                         </div>
