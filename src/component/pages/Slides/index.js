@@ -32,7 +32,7 @@ const Slides = () => {
                  </div>
                  <div className="col-md-6">
                      <div className="right-image">
-                       <img src="img/cloud-6515064_1280.webp" alt=""/>
+                       <img src="img/Untitled (1).png" alt=""/>
                    </div>
                  </div>
              </div>
