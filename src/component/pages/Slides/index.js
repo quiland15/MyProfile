@@ -310,9 +310,9 @@ const Slides = () => {
                               <button
                                 type="button"
                                 onClick={() => {
-                                  const email = "youremail@example.com";
-                                  const subject = "Your Subject";
-                                  const message = "Your Message";
+                                  const email = "email";
+                                  const subject = "subject";
+                                  const message = "message";
                                 
                                   window.location.href = `mailto:${email}?subject=${encodeURIComponent(
                                     subject
