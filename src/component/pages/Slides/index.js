@@ -310,17 +310,25 @@ const Slides = () => {
                               <button
                                 type="button"
                                 onClick={() => {
-                                  const email = "email";
-                                  const subject = "subject";
-                                  const message = "message";
+                                  // Mengambil nilai dari input form
+                                  const email = document.getElementById("email").value;
+                                  const subject = document.getElementById("subject").value;
+                                  const message = document.getElementById("message").value;
                                 
+                                  // Validasi: Cek apakah semua field terisi
+                                  if (!email || !subject || !message) {
+                                    alert("Please fill in all fields before sending.");
+                                    return;
+                                  }
+                              
+                                  // Membuka email client menggunakan mailto
                                   window.location.href = `mailto:${email}?subject=${encodeURIComponent(
                                     subject
                                   )}&body=${encodeURIComponent(message)}`;
                                 }}
                                 className="btn"
                               >
-                                Send Now
+                                  Send Now
                               </button>
                                 {/* <button type="submit" id="form-submit" className="btn">Send Now</button> */}
                               </fieldset>
